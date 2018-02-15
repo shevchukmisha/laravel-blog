@@ -12,6 +12,9 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+
 </head>
 <body>
     <div id="app">
@@ -42,7 +45,7 @@
                           </a>
 
                           <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Категорії</a></li>
+                            <li><a href="{{route('admin.category.index')}}">Категорії</a></li>
                             <li><a href="#">Матеріали</a></li>
                           </ul>
                         <li>
